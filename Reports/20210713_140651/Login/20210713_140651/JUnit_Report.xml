@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="18.092" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="18.092" skipped="0" timestamp="2021-07-13 14:06:55" hostname="daniela.gonzalez - 10.13.19.12" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\daniela.gonzalez\\git\\PruebaPega\\Reports\\20210713_140651\\Login\\20210713_140651"/>
+         <property name="logFiles" value="C:\\Users\\daniela.gonzalez\\git\\PruebaPega\\Reports\\20210713_140651\\Login\\20210713_140651\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="daniela.gonzalez - 10.13.19.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="10.13.19.12"/>
+         <property name="sessionId" value="e11411052da962bc77fc7d580bbdc7af"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pega/Login" time="6.15" classname="Test Cases/Pega/Login" status="PASSED">
+         <system-out><![CDATA[2021-07-13 14:06:55 - [TEST_CASE][PASSED] - Test Cases/Pega/Login: Test Cases/Pega/Login
+
+2021-07-13 14:06:56 - [TEST_STEP][PASSED] - openBrowser("http://training.openspan.com/login"): Browser is opened with url: 'http://training.openspan.com/login'
+
+2021-07-13 14:06:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-13 14:06:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-13 14:06:59 - [MESSAGE][PASSED] - Browser is opened with url: 'http://training.openspan.com/login'
+
+2021-07-13 14:06:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name"), username): Keys 'John Doe' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'
+
+2021-07-13 14:07:00 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'
+
+2021-07-13 14:07:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass"), Password): Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'
+
+2021-07-13 14:07:00 - [MESSAGE][PASSED] - Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'
+
+2021-07-13 14:07:00 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button")): Object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button' is clicked on
+
+2021-07-13 14:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pega/Login" time="5.139" classname="Test Cases/Pega/Login" status="PASSED">
+         <system-out><![CDATA[2021-07-13 14:07:01 - [TEST_CASE][PASSED] - Test Cases/Pega/Login: Test Cases/Pega/Login
+
+2021-07-13 14:07:01 - [TEST_STEP][PASSED] - openBrowser("http://training.openspan.com/login"): Browser is opened with url: 'http://training.openspan.com/login'
+
+2021-07-13 14:07:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-13 14:07:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-13 14:07:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-13 14:07:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://training.openspan.com/login'
+
+2021-07-13 14:07:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name"), username): Keys 'Daniela' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'
+
+2021-07-13 14:07:05 - [MESSAGE][PASSED] - Keys 'Daniela' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'
+
+2021-07-13 14:07:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass"), Password): Keys 'Gonzalez' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'
+
+2021-07-13 14:07:05 - [MESSAGE][PASSED] - Keys 'Gonzalez' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'
+
+2021-07-13 14:07:05 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button")): Object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button' is clicked on
+
+2021-07-13 14:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pega/Login" time="4.881" classname="Test Cases/Pega/Login" status="PASSED">
+         <system-out><![CDATA[2021-07-13 14:07:07 - [TEST_CASE][PASSED] - Test Cases/Pega/Login: Test Cases/Pega/Login
+
+2021-07-13 14:07:07 - [TEST_STEP][PASSED] - openBrowser("http://training.openspan.com/login"): Browser is opened with url: 'http://training.openspan.com/login'
+
+2021-07-13 14:07:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-13 14:07:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-13 14:07:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-13 14:07:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://training.openspan.com/login'
+
+2021-07-13 14:07:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name"), username): Keys 'prueba' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'
+
+2021-07-13 14:07:10 - [MESSAGE][PASSED] - Keys 'prueba' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'
+
+2021-07-13 14:07:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass"), Password): Keys 'prueba' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'
+
+2021-07-13 14:07:10 - [MESSAGE][PASSED] - Keys 'prueba' sent to object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'
+
+2021-07-13 14:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button")): Object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button' is clicked on
+
+2021-07-13 14:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-13 14:06:55 - [TEST_SUITE][PASSED] - Login: Test Cases/Pega/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

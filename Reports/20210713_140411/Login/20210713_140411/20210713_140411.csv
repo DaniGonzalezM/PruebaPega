@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 91.0.4472.124,,,2021-07-13 14:04:19,2021-07-13 14:04:37,"18,655s",FAILED
+,,,,,,,
+Test Cases/Pega/Login,Chrome 91.0.4472.124,Login,,2021-07-13 14:04:19,2021-07-13 14:04:27,"7,474s",FAILED
+"openBrowser(""http://training.openspan.com/login"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:20,2021-07-13 14:04:24,"4,441s",PASSED
+"sendKeys(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name""), ""Daniela"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:24,2021-07-13 14:04:24,"0,505s",PASSED
+"sendKeys(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass""), ""Daniela"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:24,2021-07-13 14:04:25,"0,416s",PASSED
+"click(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button""))",Chrome 91.0.4472.124,,,2021-07-13 14:04:25,2021-07-13 14:04:26,"1,166s",PASSED
+acceptAlert(),Chrome 91.0.4472.124,,,2021-07-13 14:04:26,2021-07-13 14:04:27,"0,458s",FAILED
+,,,,,,,
+Test Cases/Pega/Login,Chrome 91.0.4472.124,Login,,2021-07-13 14:04:27,2021-07-13 14:04:32,"5,306s",FAILED
+"openBrowser(""http://training.openspan.com/login"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:27,2021-07-13 14:04:29,"2,886s",PASSED
+"sendKeys(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name""), ""Daniela"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:29,2021-07-13 14:04:30,"0,547s",PASSED
+"sendKeys(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass""), ""Daniela"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:30,2021-07-13 14:04:30,"0,407s",PASSED
+"click(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button""))",Chrome 91.0.4472.124,,,2021-07-13 14:04:30,2021-07-13 14:04:31,"1,062s",PASSED
+acceptAlert(),Chrome 91.0.4472.124,,,2021-07-13 14:04:31,2021-07-13 14:04:32,"0,389s",FAILED
+,,,,,,,
+Test Cases/Pega/Login,Chrome 91.0.4472.124,Login,,2021-07-13 14:04:32,2021-07-13 14:04:37,"5,370s",FAILED
+"openBrowser(""http://training.openspan.com/login"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:32,2021-07-13 14:04:35,"2,868s",PASSED
+"sendKeys(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name""), ""Daniela"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:35,2021-07-13 14:04:35,"0,541s",PASSED
+"sendKeys(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass""), ""Daniela"")",Chrome 91.0.4472.124,,,2021-07-13 14:04:35,2021-07-13 14:04:36,"0,415s",PASSED
+"click(findTestObject(""Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button""))",Chrome 91.0.4472.124,,,2021-07-13 14:04:36,2021-07-13 14:04:37,"1,162s",PASSED
+acceptAlert(),Chrome 91.0.4472.124,,,2021-07-13 14:04:37,2021-07-13 14:04:37,"0,373s",FAILED

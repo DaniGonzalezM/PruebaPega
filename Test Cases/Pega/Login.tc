@@ -10,6 +10,13 @@
       <description></description>
       <id>6a0d9d3b-1004-4326-95ba-76995f62862b</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9e985f7-4a8d-4c28-a6a1-e0887530ad9b</id>
+      <masked>false</masked>
+      <name>Password</name>
    </variable>
 </TestCaseEntity>

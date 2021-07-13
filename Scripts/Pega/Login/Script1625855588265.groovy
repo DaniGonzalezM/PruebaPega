@@ -17,7 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(toString())
+WebUI.openBrowser('http://training.openspan.com/login')
 
-WebUI.acceptAlert()
+WebUI.sendKeys(findTestObject('Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a user name of at least 4 characters_user_name'), 
+    username)
+
+WebUI.sendKeys(findTestObject('Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_user_pass'), 
+    Password)
+
+WebUI.click(findTestObject('Login/Page_Sign In  Pega Studio Training Web Application/input_Please enter a password of at least 4 characters_login_button'))
 

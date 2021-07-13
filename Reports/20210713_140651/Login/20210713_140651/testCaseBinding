@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Pega/Login - Iteration 1","testCaseId":"Test Cases/Pega/Login","bindedValues":{"username":"\u0027John Doe\u0027","Password":"\u0027ThisIsNotAPassword\u0027"}}
+{"testCaseName":"Test Cases/Pega/Login - Iteration 2","testCaseId":"Test Cases/Pega/Login","bindedValues":{"username":"\u0027Daniela\u0027","Password":"\u0027Gonzalez\u0027"}}
+{"testCaseName":"Test Cases/Pega/Login - Iteration 3","testCaseId":"Test Cases/Pega/Login","bindedValues":{"username":"\u0027prueba\u0027","Password":"\u0027prueba\u0027"}}

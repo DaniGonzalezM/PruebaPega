@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>f3785fad-ac2e-4044-b0a7-d7adec6ffd94</testSuiteGuid>
+   <testCaseLink>
+      <guid>afc95a6d-292c-4609-ac91-bfd8764fd8aa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pega/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>230b7fa8-116b-439a-9d7f-7e5acaea7c91</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Nombres y Password</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>230b7fa8-116b-439a-9d7f-7e5acaea7c91</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>6a0d9d3b-1004-4326-95ba-76995f62862b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>230b7fa8-116b-439a-9d7f-7e5acaea7c91</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>passowrd</value>
+         <variableId>a9e985f7-4a8d-4c28-a6a1-e0887530ad9b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
